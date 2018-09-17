@@ -6,7 +6,13 @@
 // - an `addMember` method that adds a person (string) to the `members` array
 // Type your solution immediately below this line:
 
+var Group{
+  constructor(name,members)
+    this.name = name,
+    this.members = members 
 
+
+}
 
 
 
