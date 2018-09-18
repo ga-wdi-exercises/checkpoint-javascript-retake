@@ -8,7 +8,6 @@
 
 class Group{
     constructor (name, member){
-      super(addMember)
       this.name = name;
       this.member = member;
     }

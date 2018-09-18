@@ -45,5 +45,4 @@ console.log(student)
 // it (do not change the original object you typed above) and assigning it
 // a boolean value.
 // Type your solution immediately below this line:
-
-student.obj: (attends-office-hours)
+student[`attends-office-hours`] = true
