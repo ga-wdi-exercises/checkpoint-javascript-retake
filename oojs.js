@@ -7,13 +7,15 @@
 // Type your solution immediately below this line:
 
 class Group{
-    constructor (name, member){
-      this.name = name;
-      this.member = member;
-    }
+  constructor (name){
+    this.name = name,
+    this.members = []
+  }
+  addMember(member,member2,member3) {
+    this.members.push(member,member2,member3)
+  }
 }
-
-
+ 
 
 
 
@@ -21,15 +23,10 @@ class Group{
 // Call the instance's `addMember` method to add a person to the instance's `members` array
 // Type your solution immediately below this line:
 
-class classmates {
-  constructor(name, members, addMember)
-}
-
-const addMember = new classmates ("ezana", 3, "bob")
-const classmates = new Group("ezana", 1)
+var classmates = new Group("group1")
+classmates.addMember("jon","paul","bob")
 
 console.log(classmates)
-
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
 if(typeof Group !== 'undefined') {
