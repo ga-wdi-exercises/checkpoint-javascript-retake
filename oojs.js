@@ -6,21 +6,24 @@
 // - an `addMember` method that adds a person (string) to the `members` array
 // Type your solution immediately below this line:
 
+class Group {
+  constructor(name, members) {
+    this.name = name;
+    this.members = members;
+  }
 
-
-
+  addMember(tina) {}
+}
 
 // #2: Create an instance of the Group class and set it to a variable called `classmates`
 // Call the instance's `addMember` method to add a person to the instance's `members` array
 // Type your solution immediately below this line:
 
-
-
-
+const classmates = new Group();
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
-if(typeof Group !== 'undefined') {
+if (typeof Group !== "undefined") {
   module.exports = {
     Group
-  }
+  };
 }
