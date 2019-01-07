@@ -7,6 +7,17 @@
 // Type your solution immediately below this line:
 
 
+class Group{
+  constructor(name,mebers){
+    this.name = name
+    this.members = []
+    
+  }
+  addMember(person){
+    this.members.push(prson)
+  }
+}
+
 
 
 
@@ -14,6 +25,8 @@
 // Call the instance's `addMember` method to add a person to the instance's `members` array
 // Type your solution immediately below this line:
 
+//  var addMember = new group(addMember)
+//  myPlaylist.addMember("boom")
 
 
 
