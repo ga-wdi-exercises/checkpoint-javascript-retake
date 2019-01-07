@@ -6,7 +6,16 @@
 // - an `addMember` method that adds a person (string) to the `members` array
 // Type your solution immediately below this line:
 
+class Group {
+  constructor(name) {
+    this.name = name
+    this.members = []
+  }
 
+  addMember(member) {
+    this.members.push(member)
+  }
+}
 
 
 
@@ -15,7 +24,9 @@
 // Type your solution immediately below this line:
 
 
+var classmates = new Group("New Group")
 
+classmates.addMember('John')
 
 
 // NOTE: THE CODE BELOW IS FOR TESTING PURPOSES. DO NOT REMOVE OR ALTER.
