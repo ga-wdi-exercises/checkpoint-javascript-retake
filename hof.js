@@ -18,12 +18,15 @@ var people = [
 
 // #1: Use the `map` array method to create a new array containing the ages of each
 // person in the `people` array. Assign the returned array to a variable
-// called `peopleAges`.
+// called `peopleAges`.e
 // Type your solution immediately below this line:
-
+var peopleAges = people.map((age) => age.age)
+console.log(peopleAges)
 
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+var wdiStudents = people.filter(courseType => courseType.course == "WDI")
+console.log(wdiStudents)
