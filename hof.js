@@ -28,4 +28,4 @@ var peopleAges  = people.map((human) => human.age)
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
 var wdiStudents = people.filter((known) => {
-  return known.course})
+  return known.course == 'WDI'})
