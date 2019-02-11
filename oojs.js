@@ -7,7 +7,13 @@
 // Type your solution immediately below this line:
 
 
-
+var Group class {(
+  constructor('name','members'); {
+    name: 'Joey',
+    members: [],
+    addMembers: []
+  }
+})
 
 
 // #2: Create an instance of the Group class and set it to a variable called `classmates`
