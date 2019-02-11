@@ -4,26 +4,30 @@ var people = [
   {
     name: "Layla",
     age: 27,
-    course: 'WDI'
-  }, {
+    course: "WDI"
+  },
+  {
     name: "Keanu",
     age: 54,
-    course: 'WDI'
-  }, {
+    course: "WDI"
+  },
+  {
     name: "Jasmine",
     age: 35,
-    course: 'DSI'
+    course: "DSI"
   }
-]
+];
 
 // #1: Use the `map` array method to create a new array containing the ages of each
 // person in the `people` array. Assign the returned array to a variable
 // called `peopleAges`.
 // Type your solution immediately below this line:
-
-
+peopleAges = [];
+peopleAges = people.map(ages);
 
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+wdiStudents = [];
+wdiStudents = people.filter("WDI");
