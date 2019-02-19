@@ -11,6 +11,11 @@ console.log(colors);
 
 var lastColor = colors[2];
 
+var lastColor = colors[colors.length - 1]
+console.log(lastColor)
+//green
+
+
 // #3: Create an empty array called `favoriteColors`.
 // Type your solution immediately below this line:
 
@@ -20,7 +25,12 @@ var favoriteColors = [];
 // Type your solution immediately below this line:
 
 var favoriteColors = 
-for (i=0; favoriteColors <= colors.length; i++);
+for (i=0; i < colors.length; i++);
+favoriteColors.push(colors[i])
+
+
+
+
 
 
 // #5: Create an object literal called `student` that contains three key-value pairs.
@@ -29,7 +39,7 @@ for (i=0; favoriteColors <= colors.length; i++);
 var student = {
     name: "charlie",
     age: 35,
-    car: "subaru"
+    computer: true
 };
 
 
@@ -38,4 +48,4 @@ var student = {
 // a boolean value.
 // Type your solution immediately below this line:
 
-student.attends-office-hours = true;
+student["attends-office-hours"] = true;
