@@ -11,10 +11,9 @@ console.log(colors);
 
 var lastColor = colors[2];
 
-var lastColor = colors[colors.length - 1]
-console.log(lastColor)
+var lastColor = colors[colors.length - 1];
+console.log(lastColor);
 //green
-
 
 // #3: Create an empty array called `favoriteColors`.
 // Type your solution immediately below this line:
@@ -24,24 +23,17 @@ var favoriteColors = [];
 // #4 ???: Create a `for` loop that adds each string in `colors` to `favoriteColors`.
 // Type your solution immediately below this line:
 
-var favoriteColors = 
-for (i=0; i < colors.length; i++);
-favoriteColors.push(colors[i])
-
-
-
-
-
+for (i = 0; i < colors.length; i++);
+favoriteColors.push(colors[i]);
 
 // #5: Create an object literal called `student` that contains three key-value pairs.
 // Type your solution immediately below this line:
 
 var student = {
-    name: "charlie",
-    age: 35,
-    computer: true
+  name: "charlie",
+  age: 35,
+  computer: true
 };
-
 
 // #6: Add a `attends-office-hours` (spelled exactly) property to `student` by accessing
 // it (do not change the original object you typed above) and assigning it
