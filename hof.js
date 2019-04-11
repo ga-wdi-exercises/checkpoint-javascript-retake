@@ -23,7 +23,19 @@ var people = [
 
 
 
+
+
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+
+
+
+let wdiStudents = []
+let fun = people.filter((course) => {
+  if( course == 'WDI'){
+    wdiStudents.push(people[i])
+  }
+})
+console.log(wdiStudents)
