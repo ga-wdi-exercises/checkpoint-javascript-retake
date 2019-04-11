@@ -27,3 +27,5 @@ var people = [
 // persons from the `people` array who are WDI students. Assign the returned array
 // to a variable called `wdiStudents`.
 // Type your solution immediately below this line:
+const wdiStudents = people.filter(student => student.course === "WDI");
+console.log(wdiStudents)
